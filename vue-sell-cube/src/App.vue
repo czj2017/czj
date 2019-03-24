@@ -12,8 +12,7 @@
          <router-link :to="{name: 'seller'}">商家</router-link>
       </div>
     </div>
-    <router-view></router-view>
-    <div class="footer">i am footer</div>
+    <router-view :seller="seller"></router-view>
   </div>
 </template>
 
