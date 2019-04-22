@@ -17,3 +17,4 @@ export default [
     component: seller
   }
 ]
+console.log(1)

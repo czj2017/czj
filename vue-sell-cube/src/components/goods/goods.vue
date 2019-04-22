@@ -77,7 +77,6 @@ export default {
 			if(res.errno === ERR_OK){
         this.goods = res.data
         this.$nextTick(() => {
-          // alert(1)
           this._initScroll()
           this._calcuateHeight()
         })
